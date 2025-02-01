@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg: #626262;
+  --black: #000;
+  --color-primary: #fff;
+  --dark: #242424;
+  --primary: #3c680b;
+}
+
+body {
+  background: var(--bg);
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-primary);
+}
+
+.container {
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
+}
+
+.section {
+  margin: 80px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-primary);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+  display: flex;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: 2px solid var(--black);
+  background: var(--dark);
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+
+.btn-primary {
+  padding: 12px 25px;
+  border: 2px solid var(--color-primary);
+  background: var(--primary);
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.btn-secondary {
+  padding: 12px 25px;
+  border: 2px solid var(--color-primary);
+  background: var(--primary);
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content h2 {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.main-content h1 {
+  font-size: 90px;
+}
+
+.main-content p {
+  max-width: 580px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-title h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px
+}
+
+.services-title hr {
+  width: 150px;
+  height: 4px;
+  border: 10px;
+  background: var(--primary);
+  margin: auto;
+}
+
+.services-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px
+}
+
+
+.services-content img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.services-box {
+  width: 350px;
+}
